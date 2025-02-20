@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALF.PayReport", "ALF.PayReport\ALF.PayReport.vcxproj", "{DC41669A-8006-4C9F-A354-293DEAF67749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC41669A-8006-4C9F-A354-293DEAF67749}.Debug|x64.ActiveCfg = Debug|x64
+		{DC41669A-8006-4C9F-A354-293DEAF67749}.Debug|x64.Build.0 = Debug|x64
+		{DC41669A-8006-4C9F-A354-293DEAF67749}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC41669A-8006-4C9F-A354-293DEAF67749}.Debug|x86.Build.0 = Debug|Win32
+		{DC41669A-8006-4C9F-A354-293DEAF67749}.Release|x64.ActiveCfg = Release|x64
+		{DC41669A-8006-4C9F-A354-293DEAF67749}.Release|x64.Build.0 = Release|x64
+		{DC41669A-8006-4C9F-A354-293DEAF67749}.Release|x86.ActiveCfg = Release|Win32
+		{DC41669A-8006-4C9F-A354-293DEAF67749}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {787DE4FE-D38F-4268-8420-0485A238355A}
+	EndGlobalSection
+EndGlobal
