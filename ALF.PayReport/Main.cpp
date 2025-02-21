@@ -38,7 +38,7 @@ int main()
     for (int i = 0; i < size; i++)
     {
 
-        cout << i << "\n";
+        cout << "\nEmployee " << i+1 << "\n";
 
         int id;
         string fname;
@@ -62,14 +62,17 @@ int main()
 
     int totalPay = 0;
 
+    cout << "\nPay Report \n----------\n";
+
     for (int i = 0; i < size; i++)
     {
+        
         float weeklyPay = employee[i].HoursWorked * employee[i].HourlyRate;
-        cout << weeklyPay << "\n";
+        cout << employee[i].ID << ". " << employee[i].FirstName << " " << employee[i].LastName << ": " << weeklyPay << "\n";
         totalPay = totalPay + weeklyPay;
         
     }
-    cout << totalPay;
+    cout << "\n\nTotal Pay: " << totalPay;
 
 	(void)_getch();
 	return 0;
